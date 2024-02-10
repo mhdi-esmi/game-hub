@@ -1,5 +1,5 @@
 import React from "react";
-import { Game } from "../hooks/UseGames";
+import { Game } from "../hooks/useGames";
 import {
   Card,
   CardBody,
