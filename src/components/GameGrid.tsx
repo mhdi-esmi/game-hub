@@ -3,10 +3,10 @@ import useGames from "../hooks/useGames";
 import CardGame from "./CardGame";
 import GameCardSkeleton from "./GameCardSkeleton";
 import GameCardContainer from "./GameCardContainer";
-import { GameGuery } from "../App";
+import { GameQuery } from "../App";
 
 interface Props {
-  gameQuery: GameGuery | null;
+  gameQuery: GameQuery | null;
 }
 
 const GameGrid = ({ gameQuery }: Props) => {
